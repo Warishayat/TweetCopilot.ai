@@ -1,8 +1,19 @@
 from fastapi import FastAPI, HTTPException
 from classes.user_input import prompt
 from Agent.agent import workflow
+from fastapi.middleware.cors import CORSMiddleware
 
 app = FastAPI()
+
+
+app.add_middleware(
+    CORSMiddleware,
+    allow_origins=["*"],  
+    allow_credentials=True,
+    allow_methods=["*"],
+    allow_headers=["*"],
+)
+
 
 @app.get("/")
 def welcome():
