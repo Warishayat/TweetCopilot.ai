@@ -158,6 +158,3 @@ We welcome contributions, bug reports, and feature suggestions\!
 
 Distributed under the MIT License. See `LICENSE` for more information.
 
------
-
-**If you'd like the full repository link, please DM me\!**
