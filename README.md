@@ -1,4 +1,4 @@
-# 🐦 TweetCopilot.ai: AI-Powered Tweet Generation Platform
+# 🐦 TweetCopilot.ai: AI-Powered full-stack web application
 
 ## ✨ Overview
 
